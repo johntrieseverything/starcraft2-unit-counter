@@ -18,7 +18,43 @@ h1 {
   color: #ADD8E6;
 }
 
+h3 {
+  text-align: center;
+  color: #ADD8E6;
+}
+
+h4 {
+  text-align: center;
+  color: #ADD8E6;
+}
+
 p {
   text-align: center;
   color: #ADD8E6;
+}
+
+.abilitiesImage {
+  border-radius: 20%;
+}
+
+.abilitiesImage .abilitiesImagetext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+
+.abilitiesImage:hover .abilitiesImagetext {
+  visibility: visible;
+  opacity: 50%;
+  cursor: pointer;
+
 }

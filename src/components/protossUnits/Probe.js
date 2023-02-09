@@ -14,6 +14,10 @@ function Probe() {
       minerals='50'
       gas='0'
       supply='1'
+      buildtime='12'
+      raceGas={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Vespene-protoss.png"}
+      raceSupply={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Supply-protoss.gif"}
+      raceBuildtime={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Buildtime_protoss.gif"}
 
       attack='Particle Beam'
       targets='Ground'

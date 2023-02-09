@@ -8,12 +8,16 @@ function Zealot() {
       image={process.env.PUBLIC_URL + "/assets/Protoss Units/Zealot.gif"}
       alttag='Zealot gif'
       type='Small Ground Unit'
-      description='Powerful melee warrior.'
+      description='Powerful melee warrior'
 
       from='Gateway'
       minerals='100'
       gas='0'
       supply='2'
+      buildtime='27'
+      raceGas={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Vespene-protoss.png"}
+      raceSupply={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Supply-protoss.gif"}
+      raceBuildtime={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Buildtime_protoss.gif"}
 
       attack='Psi Blades'
       targets='Ground'
@@ -26,16 +30,6 @@ function Zealot() {
       health='100'
       armor='1(+1)'
       speed='3.15, 4.725 with upgrade, (+5.67 during Charge)'
-
-      upgradeIcon1={process.env.PUBLIC_URL + "/assets/Protoss Units/Zealot.gif"}
-      upgradeIcon2=''
-      upgradeIcon3=''
-      upgradeIcon1alt='Charge'
-      upgradeIcon2alt=''
-      upgradeIcon3alt=''
-      upgrade1Description='test'
-      upgrade2Description='test'
-      upgrade3Description='test'
     />
   )
 }
