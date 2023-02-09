@@ -11,11 +11,10 @@ const UnitDisplay = (props) => {
   return (
     <Container>
       <Row className='mt-3'>
-        <Col>
+        <Col >
           <h1>{props.name}</h1>
-          <Image
-            style={{ width: '10vw', borderRadius: '20%' }}
-            className='extraImg'
+          <img
+            style={{ width: '10vw', height: '20vh', borderRadius: '20%' }}
             src={props.image}
             alt={props.alttag}
             onClick={handleShow} />
@@ -33,14 +32,38 @@ const UnitDisplay = (props) => {
             Damage: {props.damage}<br />
             DPS: {props.dps}<br />
             Cooldown: {props.cooldown}<br />
-            Range: {props.range}<br /><hr />
+            Range: {props.Range}<br /><hr />
 
-            Stats: <img src={process.env.PUBLIC_URL + "/assets/Health.png"} alt='Health' />
-            {props.shield} <img src={process.env.PUBLIC_URL + "/assets/Shield.png"} alt='Shield' />
+            Stats: <img src={process.env.PUBLIC_URL + "/assets/Shield.png"} alt='Shield' />
+            {props.shield} <img src={process.env.PUBLIC_URL + "/assets/Health.png"} alt='Health' />
             {props.health} <img src={process.env.PUBLIC_URL + "/assets/Armor.png"} alt='Armor' />
-            {props.armor}<br />            
+            {props.armor}<br />
             Move Speed: {props.speed}<br />
 
+            <Row>
+              <h1>Upgrades</h1>
+              <Col>
+                <img
+                  style={{ width: '40px', height: '40px', borderRadius: '20%' }}
+                  src={props.upgradeIcon1}
+                  alt={props.upgradeIcon1alt}
+                /> Description: {props.upgrade1Description}
+              </Col>
+              <Col>
+                <img
+                  style={{ width: '40px', height: '40px', borderRadius: '20%' }}
+                  src={props.upgradeIcon2}
+                  alt={props.upgradeIcon2alt}
+                /> Description: {props.upgrade2Description}
+              </Col>
+              <Col>
+                <img
+                  style={{ width: '40px', height: '40px', borderRadius: '20%' }}
+                  src={props.upgradeIcon3}
+                  alt={props.upgradeIcon3alt}
+                /> Description: {props.upgrade3Description}
+              </Col>
+            </Row>
           </p>
         </Col>
       </Row>

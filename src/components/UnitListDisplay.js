@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Tabs, Tab, Nav } from 'react-bootstrap';
 import Probe from './protossUnits/Probe';
+import Stalker from './protossUnits/Stalker';
+import Zealot from './protossUnits/Zealot';
 import UnitDisplay from './UnitDisplay';
 
 function UnitListDisplay() {
@@ -30,15 +32,15 @@ function UnitListDisplay() {
           </Nav>
           <Tab.Content>
             <Tab.Pane eventKey="first" style={{ textAlign: 'center' }}>
-              <Row className='align-items-center'>
+              <Row>
                 <Col>
                   <Probe />
                 </Col>
                 <Col>
-                  <Probe />
+                  <Zealot />
                 </Col>
                 <Col>
-                  <Probe />
+                  <Stalker />
                 </Col>
                 <p><hr /></p>
               </Row>
