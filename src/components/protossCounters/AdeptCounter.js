@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function SentryCounter(props) {
+function AdeptCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function SentryCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Sentry Counters</h3>
+            <h3>Adept Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -75,20 +75,8 @@ function SentryCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
                             </Col>
                             <Col>
-                              <h3>Void Ray</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Void Ray.png"} alt='Void Ray' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Tempest</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Tempest.png"} alt='Tempest' />
-                            </Col>
-                            <Col>
-                              <h3>Carrier</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Carrier.png"} alt='Carrier' />
-                            </Col>
-                            <Col>
+                              <h3>Disruptor</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Disruptor.png"} alt='Disruptor' />
                             </Col>
                           </Row>
                         </Row>
@@ -110,24 +98,26 @@ function SentryCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Ravager</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ravager.png"} alt='Ravager' />
+                              <h3>Roach</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Roach.png"} alt='Roach' />
+                            </Col>
+                            <Col>
+                              <h3>Swarm Host</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Swarm Host.png"} alt='Swarm Host' />
                             </Col>
                             <Col>
                               <h3>Lurker</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Zergling' />
                             </Col>
+                          </Row>
+                          <Row className='mt-3 mb-3'>
                             <Col>
                               <h3>Ultralisk</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Roach' />
                             </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
                             <Col>
                               <h3>Brood Lord</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Hydralisk' />
-                            </Col>
-                            <Col>
                             </Col>
                             <Col>
                             </Col>
@@ -148,14 +138,14 @@ function SentryCounter(props) {
                     <Tab.Content>
                       <Tab.Pane eventKey="SCV" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
-                          <Row className='mt-3 mb-3'>
+                        <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Marauder</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Marauder.png"} alt='Marauder' />
+                              <h3>Cyclone</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Cyclone.png"} alt='Cyclone' />
                             </Col>
                             <Col>
-                              <h3>Ghost</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Ghost.png"} alt='Ghost' />
+                              <h3>Siege Tank</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
                             </Col>
                             <Col>
                               <h3>Thor</h3>
@@ -172,8 +162,6 @@ function SentryCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Battlecruiser.png"} alt='Battlecruiser' />
                             </Col>
                             <Col>
-                              <h3>Siege Tank</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
                             </Col>
                           </Row>
                         </Row>
@@ -189,4 +177,4 @@ function SentryCounter(props) {
     </Tab.Container >)
 }
 
-export default SentryCounter
+export default AdeptCounter

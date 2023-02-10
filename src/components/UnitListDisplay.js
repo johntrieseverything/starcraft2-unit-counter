@@ -22,17 +22,34 @@ function UnitListDisplay() {
             <Nav.Item >
               <Nav.Link
                 style={{ backgroundColor: '#393e46', color: '#ADD8E6', marginBottom: '1vh' }}
-                eventKey="Protoss">Protoss</Nav.Link>
+                eventKey="Protoss">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icon.png"}
+                  alt='Protoss Icon'
+                  style={{ width: '50px', height: '50px' }}
+                /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 style={{ backgroundColor: '#393e46', color: '#ADD8E6', marginBottom: '1vh' }}
-                eventKey="Zerg">Zerg</Nav.Link>
+                eventKey="Zerg">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icon.png"}
+                  alt='Zerg Icon'
+                  style={{ width: '65px', height: '50px' }}
+                />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 style={{ backgroundColor: '#393e46', color: '#ADD8E6', marginBottom: '1vh' }}
-                eventKey="Terran">Terran</Nav.Link>
+                eventKey="Terran">
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icon.png"}
+                  alt='Terran Icon'
+                  style={{ width: '50px', height: '50px' }}
+                />
+              </Nav.Link>
             </Nav.Item>
           </Nav>
           <Tab.Content>

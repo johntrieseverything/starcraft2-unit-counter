@@ -63,6 +63,20 @@ import Battlecruiser from './terranUnits/Battlecruiser';
 import ProbeCounter from './protossCounters/ProbeCounter'
 import ZealotCounter from './protossCounters/ZealotCounter'
 import StalkerCounter from './protossCounters/StalkerCounter'
+import SentryCounter from './protossCounters/SentryCounter'
+import AdeptCounter from './protossCounters/AdeptCounter'
+import HighTemplarCounter from './protossCounters/HighTemplarCounter'
+import DarkTemplarCounter from './protossCounters/DarkTemplarCounter'
+import ImmortalCounter from './protossCounters/ImmortalCounter'
+import ColossusCounter from './protossCounters/ColossusCounter'
+import ArchonCounter from './protossCounters/ArchonCounter'
+import DisruptorCounter from './protossCounters/DisruptorCounter'
+import PhoenixCounter from './protossCounters/PhoenixCounter'
+import VoidRayCounter from './protossCounters/VoidRayCounter'
+import OracleCounter from './protossCounters/OracleCounter'
+import CarrierCounter from './protossCounters/CarrierCounter'
+import TempestCounter from './protossCounters/TempestCounter'
+import MothershipCounter from './protossCounters/MothershipCounter'
 
 function UnitCounters(props) {
   return (
@@ -158,6 +172,7 @@ function UnitCounters(props) {
                           <Col>
                             <Sentry />
                           </Col>
+                          <SentryCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Adept" style={{ textAlign: 'center' }}>
@@ -165,6 +180,7 @@ function UnitCounters(props) {
                           <Col>
                             <Adept />
                           </Col>
+                          <AdeptCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="High Templar" style={{ textAlign: 'center' }}>
@@ -172,6 +188,7 @@ function UnitCounters(props) {
                           <Col>
                             <HighTemplar />
                           </Col>
+                          <HighTemplarCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Dark Templar" style={{ textAlign: 'center' }}>
@@ -179,6 +196,7 @@ function UnitCounters(props) {
                           <Col>
                             <DarkTemplar />
                           </Col>
+                          <DarkTemplarCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Immortal" style={{ textAlign: 'center' }}>
@@ -186,6 +204,7 @@ function UnitCounters(props) {
                           <Col>
                             <Immortal />
                           </Col>
+                          <ImmortalCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Colossus" style={{ textAlign: 'center' }}>
@@ -193,6 +212,7 @@ function UnitCounters(props) {
                           <Col>
                             <Colossus />
                           </Col>
+                          <ColossusCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Disruptor" style={{ textAlign: 'center' }}>
@@ -200,6 +220,7 @@ function UnitCounters(props) {
                           <Col>
                             <Disruptor />
                           </Col>
+                          <DisruptorCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Archon" style={{ textAlign: 'center' }}>
@@ -207,6 +228,7 @@ function UnitCounters(props) {
                           <Col>
                             <Archon />
                           </Col>
+                          <ArchonCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Observer" style={{ textAlign: 'center' }}>
@@ -228,6 +250,7 @@ function UnitCounters(props) {
                           <Col>
                             <Phoenix />
                           </Col>
+                          <PhoenixCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Void Ray" style={{ textAlign: 'center' }}>
@@ -235,6 +258,7 @@ function UnitCounters(props) {
                           <Col>
                             <VoidRay />
                           </Col>
+                          <VoidRayCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Oracle" style={{ textAlign: 'center' }}>
@@ -242,6 +266,7 @@ function UnitCounters(props) {
                           <Col>
                             <Oracle />
                           </Col>
+                          <OracleCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Carrier" style={{ textAlign: 'center' }}>
@@ -249,6 +274,7 @@ function UnitCounters(props) {
                           <Col>
                             <Carrier />
                           </Col>
+                          <CarrierCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Tempest" style={{ textAlign: 'center' }}>
@@ -256,6 +282,7 @@ function UnitCounters(props) {
                           <Col>
                             <Tempest />
                           </Col>
+                          <TempestCounter />
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Mothership" style={{ textAlign: 'center' }}>
@@ -263,6 +290,7 @@ function UnitCounters(props) {
                           <Col>
                             <Mothership />
                           </Col>
+                          <MothershipCounter />
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>

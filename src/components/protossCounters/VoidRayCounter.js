@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function SentryCounter(props) {
+function VoidRayCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function SentryCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Sentry Counters</h3>
+            <h3>Void Ray Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -67,26 +67,12 @@ function SentryCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
+                              <h3>Phoenix</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Phoenix.png"} alt='Phoenix' />
+                            </Col>
+                            <Col>
                               <h3>Archon</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Archon.png"} alt='Archon' />
-                            </Col>
-                            <Col>
-                              <h3>Colossus</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
-                            </Col>
-                            <Col>
-                              <h3>Void Ray</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Void Ray.png"} alt='Void Ray' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Tempest</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Tempest.png"} alt='Tempest' />
-                            </Col>
-                            <Col>
-                              <h3>Carrier</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Carrier.png"} alt='Carrier' />
                             </Col>
                             <Col>
                             </Col>
@@ -110,26 +96,16 @@ function SentryCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Ravager</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ravager.png"} alt='Ravager' />
+                              <h3>Queen (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Queen.png"} alt='Queen' />
                             </Col>
                             <Col>
-                              <h3>Lurker</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Zergling' />
+                              <h3>Hydralisk</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Hydralisk.png"} alt='Hydralisk' />
                             </Col>
                             <Col>
-                              <h3>Ultralisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Roach' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Brood Lord</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Hydralisk' />
-                            </Col>
-                            <Col>
-                            </Col>
-                            <Col>
+                              <h3>Mutalisk</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Mutalisk.png"} alt='Mutalisk' />
                             </Col>
                           </Row>
                         </Row>
@@ -150,30 +126,16 @@ function SentryCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Marauder</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Marauder.png"} alt='Marauder' />
+                              <h3>Marine</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Marine.png"} alt='Marine' />
                             </Col>
                             <Col>
-                              <h3>Ghost</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Ghost.png"} alt='Ghost' />
+                              <h3>Widow Mine (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Widow Mine.png"} alt='Widow Mine' />
                             </Col>
                             <Col>
-                              <h3>Thor</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Thor.png"} alt='Thor' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Banshee</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Banshee.png"} alt='Banshee' />
-                            </Col>
-                            <Col>
-                              <h3>Battlecruiser</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Battlecruiser.png"} alt='Battlecruiser' />
-                            </Col>
-                            <Col>
-                              <h3>Siege Tank</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
+                              <h3>Viking (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Viking.png"} alt='Viking' />
                             </Col>
                           </Row>
                         </Row>
@@ -189,4 +151,4 @@ function SentryCounter(props) {
     </Tab.Container >)
 }
 
-export default SentryCounter
+export default VoidRayCounter

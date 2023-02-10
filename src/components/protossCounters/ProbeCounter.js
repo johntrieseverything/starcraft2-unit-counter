@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Tabs, Tab, Nav } from 'react-bootstrap'
+import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import ProtossIcons from '../ProtossIcons'
 import TerranIcons from '../TerranIcons'
 import ZergIcons from '../ZergIcons'
@@ -55,7 +55,7 @@ function ProbeCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Zealot Counters</h3>
+            <h3>Probe Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -69,9 +69,8 @@ function ProbeCounter(props) {
                       <Tab.Pane eventKey="Probe" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
                           <Col>
-                            <ProtossIcons />
-                            <hr />
                             <h3>Basically anything counters the Probe</h3>
+                            <ProtossIcons />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -91,9 +90,8 @@ function ProbeCounter(props) {
                       <Tab.Pane eventKey="Drone" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
                           <Col>
-                            <ZergIcons />
-                            <hr />
                             <h3>Basically anything counters the Probe</h3>
+                            <ZergIcons />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -112,9 +110,8 @@ function ProbeCounter(props) {
                       <Tab.Pane eventKey="SCV" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
                           <Col>
-                            <TerranIcons />
-                            <hr />
                             <h3>Basically anything counters the Probe</h3>
+                            <TerranIcons />
                           </Col>
                         </Row>
                       </Tab.Pane>

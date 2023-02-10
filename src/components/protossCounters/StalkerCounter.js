@@ -1,8 +1,5 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
-import ProtossIcons from '../ProtossIcons'
-import TerranIcons from '../TerranIcons'
-import ZergIcons from '../ZergIcons'
 
 function StalkerCounter(props) {
   return (
@@ -55,7 +52,7 @@ function StalkerCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Zealot Counters</h3>
+            <h3>Stalker Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -78,6 +75,8 @@ function StalkerCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Zealot.png"} alt='Zealot' />
                             </Col>
                             <Col>
+                              <h3>Void Ray (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Void Ray.png"} alt='Zealot' />
                             </Col>
                           </Row>
                         </Row>
@@ -99,12 +98,26 @@ function StalkerCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Roach</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Roach.png"} alt='Roach' />
+                              <h3>Zergling</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zergling.png"} alt='Roach' />
                             </Col>
                             <Col>
                               <h3>Hydralisk</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Hydralisk.png"} alt='Hydralisk' />
+                            </Col>
+                            <Col>
+                              <h3>Lurker</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Zergling' />
+                            </Col>
+                          </Row>
+                          <Row className='mt-3 mb-3'>
+                            <Col>
+                              <h3>Ultralisk</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Roach' />
+                            </Col>
+                            <Col>
+                              <h3>Brood Lord</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Hydralisk' />
                             </Col>
                             <Col>
                             </Col>
@@ -135,6 +148,8 @@ function StalkerCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
                             </Col>
                             <Col>
+                              <h3>Thor (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Thor.png"} alt='Thor' />
                             </Col>
                           </Row>
                         </Row>
