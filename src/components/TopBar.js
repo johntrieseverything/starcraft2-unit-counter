@@ -19,7 +19,7 @@ function TopBar() {
           </Col>
           <Col className='mt-1 pt-2'>
             <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}>
-              <li className='scrollLink'><Link activeClass="active" to="IntroSection" smooth={false} duration={1000} offset={-100}>About Me</Link></li>
+              <li className='scrollLink'><a href='/UnitsList'>About Me</a></li>
               <li className='scrollLink'><Link activeClass="active" to="ExperienceSection" smooth={false} duration={1000} offset={-100}>Experience</Link></li>
               <li className='scrollLink'><Link activeClass="active" to="ProjectsSection" smooth={false} duration={1000} offset={-100}>Projects</Link></li>
               <li className='scrollLink'><Link activeClass="active" to="ContactSection" smooth={false} duration={1000} offset={-100}>Contact Me</Link></li>

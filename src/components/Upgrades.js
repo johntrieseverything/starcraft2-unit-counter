@@ -27,10 +27,10 @@ const Upgrades = (props) => {
             Range: {props.Range}<br />
             Cooldown: {props.Cooldown}<br />
             Duration: {props.Duration}<br />
-            Cost: <img src={process.env.PUBLIC_URL + "/assets/Minerals.png"} alt='minerals' />
-            {props.minerals} <img src={process.env.PUBLIC_URL + "/assets/Gas.png"} alt='gas' />
-            {props.gas} <img src={process.env.PUBLIC_URL + "/assets/supplyProtoss.png"} alt='supply' />
-            {props.research}<br /><hr />
+            Cost: <img src={process.env.PUBLIC_URL + "/assets/Icons/Race Specific/Minerals.png"} alt='minerals' />
+            {props.minerals} <img src={props.raceGas} alt='Gas' />
+            {props.gas} <img src={props.raceBuildtime} alt='Buildtime' />
+            {props.buildtime}<br /><hr />
           </p>
         </Col>
       </Row>

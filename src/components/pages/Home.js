@@ -9,16 +9,16 @@ function Home() {
   return (
     <Container fluid>
       <TopBar />
-      <UnitListDisplay />
+      {/* <UnitListDisplay /> */}
 
-      {/* <Row>
+      <Row>
         <Col>
-          <UnitCounters />
+          <UnitCounters
+            title='Enemy race'
+            unit='Enemy Unit'
+          />
         </Col>
-        <Col>
-          <UnitCounters />
-        </Col>
-      </Row> */}
+      </Row>
     </Container>
   )
 }
