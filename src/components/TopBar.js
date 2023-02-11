@@ -10,7 +10,7 @@ function TopBar() {
         <Row className='shadow-lg align-items-center topbarBorder mt-5'>
           <Col>
             <Navbar.Brand href="/">
-              <img src={process.env.PUBLIC_URL + "/assets/logo.png"}alt="logo" className=" logo d-inline-block align-top rounded" />
+              <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt="logo" className=" logo d-inline-block align-top rounded" />
             </Navbar.Brand>
           </Col>
           <Col className='mt-1 pt-2 align-items-center'>

@@ -1,15 +1,17 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import Footer from '../Footer';
 import TopBar from '../TopBar';
-import UnitCounters from '../UnitCounters';
-import UnitDisplay from '../UnitDisplay';
+import TopButton from '../TopButton';
 import UnitListDisplay from '../UnitListDisplay';
 
 function Home() {
   return (
     <Container fluid>
       <TopBar />
+      <TopButton />
       <UnitListDisplay />
+      <Footer />
     </Container>
   )
 }
