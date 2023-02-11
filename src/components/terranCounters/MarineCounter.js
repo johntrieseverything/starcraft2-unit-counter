@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function ZerglingCounter(props) {
+function MarineCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function ZerglingCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Zergling Counters</h3>
+            <h3>Marine Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -71,7 +71,7 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Sentry.png"} alt='Sentry' />
                             </Col>
                             <Col>
-                              <h3>Archon</h3>
+                              <h3>Archon (soft)</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Archon.png"} alt='Archon' />
                             </Col>
                             <Col>
@@ -85,6 +85,8 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
                             </Col>
                             <Col>
+                              <h3>High Templar</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/High Templar.png"} alt='High Templar' />
                             </Col>
                             <Col>
                             </Col>
@@ -112,8 +114,8 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Baneling.png"} alt='Baneling' />
                             </Col>
                             <Col>
-                              <h3>Mutalisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Mutalisk.png"} alt='Mutalisk' />
+                              <h3>Infestor</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Infestor.png"} alt='Infestor' />
                             </Col>
                             <Col>
                               <h3>Lurker</h3>
@@ -126,8 +128,6 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Ultralisk' />
                             </Col>
                             <Col>
-                              <h3>Brood Lord (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Brood Lord' />
                             </Col>
                             <Col>
                             </Col>
@@ -162,18 +162,6 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
                             </Col>
                           </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Banshee (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Banshee.png"} alt='Banshee' />
-                            </Col>
-                            <Col>
-                              <h3>Battlecruiser (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Battlecruiser.png"} alt='Battlecruiser' />
-                            </Col>
-                            <Col>
-                            </Col>
-                          </Row>
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
@@ -184,7 +172,8 @@ function ZerglingCounter(props) {
           </Tab.Content>
         </Row>
       </Container>
-    </Tab.Container >)
+    </Tab.Container >
+  )
 }
 
-export default ZerglingCounter
+export default MarineCounter

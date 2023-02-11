@@ -4,14 +4,14 @@ body {
 }
 
 .topbarBorder {
-  height: 10vh;
-  width: 100%;
-  border-radius: 15%;
+  background-color: rgba(4, 51, 139, 0.7);
+  position: fixed;
 }
 
 .unitListDisplayBackground {
   background-color: rgba(0, 0, 0, .5)
 }
+
 .unitCounter {
   background-color: rgba(0, 0, 0, 0)
 }
@@ -34,4 +34,35 @@ h4 {
 p {
   text-align: center;
   color: #ADD8E6;
+}
+
+a {
+  font-size: 2vh;
+  color: #ADD8E6
+}
+
+a:hover {
+  color: black;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-shadow: 1px 1px 2px black;
+}
+
+.logo {
+  width: 3vw;
+  height: 3vw;
+  margin-left: 5vw;
+  background-color: #999999;
+}
+
+.logo:hover {
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+  box-shadow: 5px 5px 5px #888888;
 }

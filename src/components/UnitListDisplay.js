@@ -1,19 +1,16 @@
-import React from 'react'
-import { Container, Row, Col, Tabs, Tab, Nav } from 'react-bootstrap';
-
-import UnitDisplay from './UnitDisplay';
-import Abilities from './Abilities';
-import Upgrades from './Upgrades';
+import React from 'react';
+import { Container, Nav, Row, Tab } from 'react-bootstrap';
 
 import ProtossUnits from './protossUnits/ProtossUnits';
-import ZergUnits from './zergUnits/ZergUnits';
 import TerranUnits from './terranUnits/TerranUnits';
+import ZergUnits from './zergUnits/ZergUnits';
 
 
 function UnitListDisplay() {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
-      <Container fluid className='unitListDisplayBackground'>
+      <Container fluid className='unitListDisplayBackground'>\
+        <Row style={{ height: '10vh' }}></Row>
         <Row className='mt-5'>
           <h1>Units List</h1>
         </Row>
@@ -75,19 +72,3 @@ function UnitListDisplay() {
 }
 
 export default UnitListDisplay
-{/* <Tabs
-            defaultActiveKey="profile"
-            id="fill-tab-example"
-            className="mb-3"
-            justify
-            fill          >
-            <Tab eventKey="Terran" title="Terran">
-              <p>Test</p>
-            </Tab>
-            <Tab eventKey="Zerg" title="Zerg">
-              <p>Test</p>
-            </Tab>
-            <Tab eventKey="Protoss" title="Protoss">
-              <p style={{ fontFamily: 'Starcraft' }}>Test</p>
-            </Tab>
-          </Tabs> */}

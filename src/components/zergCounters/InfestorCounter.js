@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function ZerglingCounter(props) {
+function InfestorCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function ZerglingCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Zergling Counters</h3>
+            <h3>Infestor Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -67,26 +67,16 @@ function ZerglingCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Sentry (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Sentry.png"} alt='Sentry' />
+                              <h3>Zealot (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Zealot.png"} alt='Zealot' />
                             </Col>
                             <Col>
-                              <h3>Archon</h3>
+                              <h3>High Templar (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/High Templar.png"} alt='High Templar' />
+                            </Col>
+                            <Col>
+                              <h3>Archon (soft)</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Archon.png"} alt='Archon' />
-                            </Col>
-                            <Col>
-                              <h3>Adept (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Adept.png"} alt='Adept (soft)' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
-                            <Col>
-                              <h3>Colossus</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
-                            </Col>
-                            <Col>
-                            </Col>
-                            <Col>
                             </Col>
                           </Row>
                         </Row>
@@ -108,28 +98,30 @@ function ZerglingCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Baneling</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Baneling.png"} alt='Baneling' />
+                              <h3>Zergling (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zergling (soft).png"} alt='Zergling (soft)' />
                             </Col>
                             <Col>
-                              <h3>Mutalisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Mutalisk.png"} alt='Mutalisk' />
+                              <h3>Roach </h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Roach.png"} alt='Roach' />
                             </Col>
                             <Col>
-                              <h3>Lurker</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Lurker' />
+                              <h3>Swarm Host (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Swarm Host.png"} alt='Swarm Host' />
                             </Col>
                           </Row>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Ultralisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Ultralisk' />
+                              <h3>Lurker (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Lurker' />
                             </Col>
                             <Col>
                               <h3>Brood Lord (soft)</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Brood Lord' />
                             </Col>
                             <Col>
+                              <h3>Ultralisk (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Ultralisk' />
                             </Col>
                           </Row>
                         </Row>
@@ -150,12 +142,12 @@ function ZerglingCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Hellion</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellion.png"} alt='Hellion' />
+                              <h3>Cyclone (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Cyclone.png"} alt='Cyclone' />
                             </Col>
                             <Col>
-                              <h3>Hellbat</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellbat.png"} alt='Hellbat' />
+                              <h3>Widow Mine (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Widow Mine.png"} alt='Widow Mine' />
                             </Col>
                             <Col>
                               <h3>Siege Tank</h3>
@@ -164,14 +156,16 @@ function ZerglingCounter(props) {
                           </Row>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Banshee (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Banshee.png"} alt='Banshee' />
+                              <h3>Hellion</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellion.png"} alt='Hellion' />
                             </Col>
                             <Col>
-                              <h3>Battlecruiser (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Battlecruiser.png"} alt='Battlecruiser' />
+                              <h3>Hellbat</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellbat.png"} alt='Hellbat' />
                             </Col>
                             <Col>
+                              <h3>Ghost</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Ghost.png"} alt='Ghost' />
                             </Col>
                           </Row>
                         </Row>
@@ -187,4 +181,4 @@ function ZerglingCounter(props) {
     </Tab.Container >)
 }
 
-export default ZerglingCounter
+export default InfestorCounter

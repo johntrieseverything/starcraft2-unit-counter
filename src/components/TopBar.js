@@ -4,25 +4,20 @@ import { Link } from 'react-scroll';
 
 function TopBar() {
   return (
-    <Container fluid >
+    <Container fluid>
       {/* #222831' */}
-      <Row >
-        <img src={process.env.PUBLIC_URL + "/assets/thinborder.png"} alt='topborder' className='topbarBorder' />
-        <Row className='shadow-lg p-1 align-items-center' style={{ width: '100%', position: 'fixed' }}>
+      <Row className='shadow-lg align-items-center mt-4 '>
+        <Row className='shadow-lg align-items-center topbarBorder mt-5'>
           <Col>
             <Navbar.Brand href="/">
-              <img src={process.env.PUBLIC_URL + "/assets/logo.png"}
-                alt="logo" width="30" height="30"
-                className="d-inline-block align-top rounded"
-                style={{ marginLeft: '5vw', backgroundColor: '#000000' }} />
+              <img src={process.env.PUBLIC_URL + "/assets/logo.png"}alt="logo" className=" logo d-inline-block align-top rounded" />
             </Navbar.Brand>
           </Col>
-          <Col className='mt-1 pt-2'>
+          <Col className='mt-1 pt-2 align-items-center'>
             <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}>
-              <li className='scrollLink'><a href='/UnitsList'>About Me</a></li>
-              <li className='scrollLink'><Link activeClass="active" to="ExperienceSection" smooth={false} duration={1000} offset={-100}>Experience</Link></li>
-              <li className='scrollLink'><Link activeClass="active" to="ProjectsSection" smooth={false} duration={1000} offset={-100}>Projects</Link></li>
-              <li className='scrollLink'><Link activeClass="active" to="ContactSection" smooth={false} duration={1000} offset={-100}>Contact Me</Link></li>
+              <li className='scrollLink'><a href='/'>Home</a></li>
+              <li className='scrollLink'><a href='/UnitsList'>Units List</a></li>
+              <li className='scrollLink'><a href='/UnitCountersPage'>Unit Counters</a></li>
             </ul>
           </Col>
         </Row>

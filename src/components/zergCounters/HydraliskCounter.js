@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function ZerglingCounter(props) {
+function HydraliskCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function ZerglingCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Zergling Counters</h3>
+            <h3>Hydralisk Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -67,26 +67,16 @@ function ZerglingCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Sentry (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Sentry.png"} alt='Sentry' />
+                              <h3>High Templar (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/High Templar.png"} alt='High Templar' />
                             </Col>
-                            <Col>
-                              <h3>Archon</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Archon.png"} alt='Archon' />
-                            </Col>
-                            <Col>
-                              <h3>Adept (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Adept.png"} alt='Adept (soft)' />
-                            </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
                             <Col>
                               <h3>Colossus</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
                             </Col>
                             <Col>
-                            </Col>
-                            <Col>
+                              <h3>Disruptor (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Disruptor.png"} alt='Disruptor (soft)' />
                             </Col>
                           </Row>
                         </Row>
@@ -112,8 +102,8 @@ function ZerglingCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Baneling.png"} alt='Baneling' />
                             </Col>
                             <Col>
-                              <h3>Mutalisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Mutalisk.png"} alt='Mutalisk' />
+                              <h3>Zerging</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zerging.png"} alt='Zerging' />
                             </Col>
                             <Col>
                               <h3>Lurker</h3>
@@ -122,12 +112,12 @@ function ZerglingCounter(props) {
                           </Row>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Ultralisk</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Ultralisk' />
+                              <h3>Swarm Host</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Swarm Host.png"} alt='Swarm Host' />
                             </Col>
                             <Col>
-                              <h3>Brood Lord (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Brood Lord.png"} alt='Brood Lord' />
+                              <h3>Infestor (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Infestor.png"} alt='Infestor' />
                             </Col>
                             <Col>
                             </Col>
@@ -164,8 +154,8 @@ function ZerglingCounter(props) {
                           </Row>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Banshee (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Banshee.png"} alt='Banshee' />
+                              <h3>Marine (soft)</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Marine.png"} alt='Marine' />
                             </Col>
                             <Col>
                               <h3>Battlecruiser (soft)</h3>
@@ -187,4 +177,4 @@ function ZerglingCounter(props) {
     </Tab.Container >)
 }
 
-export default ZerglingCounter
+export default HydraliskCounter

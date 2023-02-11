@@ -9,14 +9,10 @@ function Home() {
   return (
     <Container fluid>
       <TopBar />
-      {/* <UnitListDisplay /> */}
-
+      <Row style={{ height: '10vh' }}></Row>
       <Row>
         <Col>
-          <UnitCounters
-            title='Enemy race'
-            unit='Enemy Unit'
-          />
+          <h1>This si a test</h1>
         </Col>
       </Row>
     </Container>
