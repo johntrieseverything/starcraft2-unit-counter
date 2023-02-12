@@ -26,7 +26,7 @@ function Marauder() {
       cooldown='1.07 (-0.36)'
       Range='6'
 
-      shield='x'
+      shield='--'
       health='125'
       armor='1(+1)'
       speed='3.15 (+1.57)'

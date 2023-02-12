@@ -25,8 +25,8 @@ function Medivac() {
       dps='n/a'
       cooldown='n/a'
       Range='n/a'
-      
-      shield='x'
+
+      shield='--'
       health='150'
       armor='1(+1)'
       speed='3.5(+0.63), 5.94 with boost'

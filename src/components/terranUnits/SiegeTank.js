@@ -26,7 +26,7 @@ function SiegeTank() {
       cooldown='0.74 / 2.14'
       Range='7 / 13'
 
-      shield='x'
+      shield='--'
       health='175'
       armor='1(+1)'
       speed='3.15'

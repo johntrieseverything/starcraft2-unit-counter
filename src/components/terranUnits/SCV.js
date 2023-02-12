@@ -26,7 +26,7 @@ function SCV() {
       cooldown='1.07'
       Range='0.1'
 
-      shield='x'
+      shield='--'
       health='45'
       armor='0(+1)'
       speed='3.94'

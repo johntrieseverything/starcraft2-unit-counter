@@ -26,7 +26,7 @@ function Cyclone() {
       cooldown='0.71'
       Range='5'
 
-      shield='x'
+      shield='--'
       health='120'
       armor='1(+1)'
       speed='4.73'

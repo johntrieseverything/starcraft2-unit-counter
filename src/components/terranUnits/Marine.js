@@ -26,7 +26,7 @@ function Marine() {
       cooldown='0.61'
       Range='5'
 
-      shield='x'
+      shield='--'
       health='45(+10)'
       armor='0(+1)'
       speed='3.15 (+1.57)'

@@ -26,7 +26,7 @@ function Thor() {
       cooldown='0.91 / 2.14 / 0.91'
       Range='7 / 10 / 11'
 
-      shield='x'
+      shield='--'
       health='400'
       armor='1(+1)'
       speed='2.62'

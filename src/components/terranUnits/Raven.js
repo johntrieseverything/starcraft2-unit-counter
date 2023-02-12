@@ -25,8 +25,8 @@ function Raven() {
       dps='n/a'
       cooldown='n/a'
       Range='n/a'
-      
-      shield='x'
+
+      shield='--'
       health='140'
       armor='1(+1)'
       speed='4.13'

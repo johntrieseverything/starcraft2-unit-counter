@@ -26,7 +26,7 @@ function Battlecruiser() {
       cooldown='0.16'
       Range='6'
 
-      shield='x'
+      shield='--'
       health='550'
       armor='3(+1)'
       speed='2.62'

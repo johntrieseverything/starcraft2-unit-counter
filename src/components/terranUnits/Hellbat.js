@@ -26,7 +26,7 @@ function Hellbat() {
       cooldown='1.43'
       Range='2'
 
-      shield='x'
+      shield='--'
       health='135'
       armor='0(+1)'
       speed='3.15'

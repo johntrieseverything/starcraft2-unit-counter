@@ -26,7 +26,7 @@ function Ghost() {
       cooldown='3.94'
       Range='6'
 
-      shield='x'
+      shield='--'
       health='100'
       armor='0(+1)'
       speed='3.94'

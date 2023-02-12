@@ -26,7 +26,7 @@ function Liberator() {
       cooldown='1.29 / 1.14'
       Range='5 / 10(+3)'
 
-      shield='x'
+      shield='--'
       health='180'
       armor='0(+1)'
       speed='4.72'

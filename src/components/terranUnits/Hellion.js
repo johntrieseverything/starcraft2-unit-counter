@@ -26,7 +26,7 @@ function Hellion() {
       cooldown='1.79'
       Range='5'
 
-      shield='x'
+      shield='--'
       health='90'
       armor='0(+1)'
       speed='5.95'

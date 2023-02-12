@@ -26,7 +26,7 @@ function Reaper() {
       cooldown='0.79'
       Range='5'
 
-      shield='x'
+      shield='--'
       health='60'
       armor='0(+1)'
       speed='5.25'

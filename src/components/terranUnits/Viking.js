@@ -26,7 +26,7 @@ function Viking() {
       cooldown='0.71 / 1.43'
       Range='6 / 9'
 
-      shield='x'
+      shield='--'
       health='135'
       armor='0(+1)'
       speed='3.15 / 3.85'

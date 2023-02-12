@@ -26,7 +26,7 @@ function WidowMine() {
       cooldown='29'
       Range='5'
 
-      shield='x'
+      shield='--'
       health='90'
       armor='0(+1)'
       speed='3.94'
