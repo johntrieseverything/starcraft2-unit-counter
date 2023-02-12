@@ -5,7 +5,7 @@ function Mutalisk() {
   return (
     <UnitDisplay
       name='Mutalisk'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Mutalisk.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Mutalisk.jpg"}
       alttag='Mutalisk jpg'
       type='Air Unit'
       description='Air unit that bounces its shot to strike multiple targets.'

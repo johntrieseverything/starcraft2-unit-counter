@@ -5,7 +5,7 @@ function Queen() {
   return (
     <UnitDisplay
       name='Queen'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Queen.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Queen.jpg"}
       alttag='Queen jpg'
       type='Ground Unit'
       description='Defensive unit. Can Spawn Creep Tumors, Spawn Larva, and use the Transfusion ability. Moves much faster on creep.'

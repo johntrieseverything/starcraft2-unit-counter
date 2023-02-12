@@ -5,7 +5,7 @@ function Lurker() {
   return (
     <UnitDisplay
       name='Lurker'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Lurker.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Lurker.jpg"}
       alttag='Lurker jpg'
       type='Ground Unit'
       description='Burrowed attacker.'

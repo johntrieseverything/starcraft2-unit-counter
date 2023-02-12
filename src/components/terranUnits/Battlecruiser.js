@@ -5,7 +5,7 @@ function Battlecruiser() {
   return (
     <UnitDisplay
       name='Battlecruiser'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Battlecruiser.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Battlecruiser.jpg"}
       alttag='Battlecruiser jpg'
       type='Air Unit'
       description='Powerful warship. Can be upgraded with the Yamato Cannon and Tactical Jump ability.'

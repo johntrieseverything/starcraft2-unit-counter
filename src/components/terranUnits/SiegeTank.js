@@ -5,7 +5,7 @@ function SiegeTank() {
   return (
     <UnitDisplay
       name='Siege Tank'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/SiegeTank.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/SiegeTank.jpg"}
       alttag='Siege Tank jpg'
       type='Ground Unit'
       description='Heavy Tank. Can switch into Siege Mode to provide long-range artillery support.'

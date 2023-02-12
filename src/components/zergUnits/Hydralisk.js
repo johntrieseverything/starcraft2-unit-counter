@@ -5,7 +5,7 @@ function Hydralisk() {
   return (
     <UnitDisplay
       name='Hydralisk'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Hydralisk.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Hydralisk.jpg"}
       alttag='Hydralisk jpg'
       type='Ground Unit'
       description='Ranged attacker.'

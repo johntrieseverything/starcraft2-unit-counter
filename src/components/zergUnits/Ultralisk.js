@@ -5,7 +5,7 @@ function Ultralisk() {
   return (
     <UnitDisplay
       name='Ultralisk'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Ultralisk.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Ultralisk.jpg"}
       alttag='Ultralisk jpg'
       type='Ground Unit'
       description='Heavy assault beast /w PBAoE damage attack.'

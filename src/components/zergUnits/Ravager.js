@@ -5,7 +5,7 @@ function Ravager() {
   return (
     <UnitDisplay
       name='Ravager'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Ravager.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Ravager.jpg"}
       alttag='Ravager jpg'
       type='Ground Unit'
       description='Ranged artillery. Can use Corrosive Bile.'

@@ -5,7 +5,7 @@ function Roach() {
   return (
     <UnitDisplay
       name='Roach'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Roach.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Roach.jpg"}
       alttag='Roach jpg'
       type='Ground Unit'
       description='Assault unit. Regenerates health quickly when burrowed.'

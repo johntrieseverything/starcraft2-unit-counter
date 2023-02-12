@@ -5,7 +5,7 @@ function Viper() {
   return (
     <UnitDisplay
       name='Viper'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Viper.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Viper.jpg"}
       alttag='Viper jpg'
       type='Air Unit'
       description='The Viper is a Zerg flying support caster that requires a Hive.'

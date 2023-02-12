@@ -5,7 +5,7 @@ function Liberator() {
   return (
     <UnitDisplay
       name='Liberator'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Liberator.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Liberator.jpg"}
       alttag='Liberator jpg'
       type='Air Unit'
       description='Artillery Ship.'

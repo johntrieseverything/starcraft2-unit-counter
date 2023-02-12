@@ -5,7 +5,7 @@ function Thor() {
   return (
     <UnitDisplay
       name='Thor'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Thor.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Thor.jpg"}
       alttag='Thor jpg'
       type='Ground Unit'
       description='Heavy Assault Mech.'

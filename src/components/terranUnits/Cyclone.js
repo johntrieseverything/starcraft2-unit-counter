@@ -5,7 +5,7 @@ function Cyclone() {
   return (
     <UnitDisplay
       name='Cyclone'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Cyclone.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Cyclone.jpg"}
       alttag='Cyclone jpg'
       type='Ground Unit'
       description='Mobile assault vehicle. Can use Lock On to quickly fire while moving.'

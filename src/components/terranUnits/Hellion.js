@@ -5,7 +5,7 @@ function Hellion() {
   return (
     <UnitDisplay
       name='Hellion'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Hellion.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Hellion.jpg"}
       alttag='Hellion jpg'
       type='Ground Unit'
       description='Fast scout. Has a flame attack that damages all enemy units in its line of fire.'

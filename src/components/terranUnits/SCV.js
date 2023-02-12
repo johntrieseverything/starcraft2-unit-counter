@@ -5,7 +5,7 @@ function SCV() {
   return (
     <UnitDisplay
       name='SCV'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/scv.gif"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/scv.gif"}
       alttag='SCV gif'
       type='Ground Unit'
       description='Basic worker unit. Can gather resources, build Terran structures, and repair.'

@@ -5,7 +5,7 @@ function Ghost() {
   return (
     <UnitDisplay
       name='Ghost'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Ghost.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Ghost.jpg"}
       alttag='Ghost jpg'
       type='Ground Unit'
       description='Sniper. Can use Steady Targeting, EMP Round and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.'

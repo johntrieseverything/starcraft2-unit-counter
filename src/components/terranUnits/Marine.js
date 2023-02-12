@@ -5,7 +5,7 @@ function Marine() {
   return (
     <UnitDisplay
       name='Marine'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/marine.gif"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/marine.gif"}
       alttag='Marine gif'
       type='Ground Unit'
       description='General-purpose infantry.'

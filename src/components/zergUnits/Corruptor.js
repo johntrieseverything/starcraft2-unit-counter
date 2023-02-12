@@ -5,7 +5,7 @@ function Corruptor() {
   return (
     <UnitDisplay
       name='Corruptor'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Corruptor.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Corruptor.jpg"}
       alttag='Corruptor jpg'
       type='Medium Air Unit'
       description='Anti-air flyer. Can use Caustic Spray. Can morph into Brood Lord.'

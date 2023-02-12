@@ -5,7 +5,7 @@ function WidowMine() {
   return (
     <UnitDisplay
       name='Widow Mine'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/WidowMine.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/WidowMine.jpg"}
       alttag='Widow Mine jpg'
       type='Ground Unit'
       description='Has no auto attack and must be Burrowed into the ground to use its "Activate Mine" ability to deal Splash damage to ground or air units.'

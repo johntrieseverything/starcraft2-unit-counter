@@ -5,7 +5,7 @@ function Raven() {
   return (
     <UnitDisplay
       name='Raven'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Raven.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Raven.jpg"}
       alttag='Raven jpg'
       type='Air Unit'
       description='Aerial support unit. Can use Auto Turret, Interference Matrix and Anti-Armor Missile abilities.'

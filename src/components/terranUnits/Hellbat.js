@@ -5,7 +5,7 @@ function Hellbat() {
   return (
     <UnitDisplay
       name='Hellbat'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Hellbat.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Hellbat.jpg"}
       alttag='Hellbat jpg'
       type='Ground Unit'
       description='Fast scout. Has a flame attack that damages all enemy units in its line of fire.'

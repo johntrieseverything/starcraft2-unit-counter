@@ -5,7 +5,7 @@ function Overlord() {
   return (
     <UnitDisplay
       name='Overlord'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Overseer.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Overseer.jpg"}
       alttag='Overlord jpg'
       type='Air Unit'
       description='Advanced aerial observer. Maintains the unit cap set by the Overlord. Can use Spawn Changeling and Contaminate.'

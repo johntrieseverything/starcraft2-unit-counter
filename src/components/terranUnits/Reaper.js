@@ -5,7 +5,7 @@ function Reaper() {
   return (
     <UnitDisplay
       name='Reaper'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Reaper.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Reaper.jpg"}
       alttag='Reaper jpg'
       type='Ground Unit'
       description='Raider. Capable of jumping up and down cliffs. Heals when out of combat.'

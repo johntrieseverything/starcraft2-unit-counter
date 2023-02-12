@@ -5,7 +5,7 @@ function Medivac() {
   return (
     <UnitDisplay
       name='Medivac'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Medivac.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Medivac.jpg"}
       alttag='Medivac jpg'
       type='Air Unit'
       description='Terran air transport ship. Can also heal biological units.'

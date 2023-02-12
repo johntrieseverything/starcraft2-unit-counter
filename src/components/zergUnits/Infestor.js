@@ -5,7 +5,7 @@ function Infestor() {
   return (
     <UnitDisplay
       name='Infestor'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Infestor.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Infestor.jpg"}
       alttag='Infestor jpg'
       type='Ground Unit'
       description='Infestation specialist. Can move while burrowed. Can use Fungal Growth, Neural Parasite, and Microbial Shroud abilities.'

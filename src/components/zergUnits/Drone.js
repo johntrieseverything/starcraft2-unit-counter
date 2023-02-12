@@ -5,7 +5,7 @@ function Drone() {
   return (
     <UnitDisplay
       name='Drone'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Drone.gif"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Drone.gif"}
       alttag='Drone gif'
       type='Ground Unit'
       description='Basic worker unit. Can harvest minerals and Vespene Gas. Can mutate into structures.'

@@ -5,7 +5,7 @@ function SwarmHost() {
   return (
     <UnitDisplay
       name='Swarm Host'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/SwarmHost.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/SwarmHost.jpg"}
       alttag='Swarm Host jpg'
       type='Ground Unit'
       description='Siege unit that attacks by spawning Locust minions.'

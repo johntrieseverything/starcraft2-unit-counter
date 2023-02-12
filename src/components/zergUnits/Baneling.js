@@ -5,7 +5,7 @@ function Baneling() {
   return (
     <UnitDisplay
       name='Baneling'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Baneling.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Baneling.jpg"}
       alttag='Baneling jpg'
       type='Ground Unit'
       description='Kamikaze unit. Does damage over a small area.'

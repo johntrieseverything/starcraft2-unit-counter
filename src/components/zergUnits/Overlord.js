@@ -5,7 +5,7 @@ function Overlord() {
   return (
     <UnitDisplay
       name='Overlord'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/Overlord.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/Overlord.jpg"}
       alttag='Overlord jpg'
       type='Air Unit'
       description='Provides 8 supply, which raises the maximum number of units available. Can morph into Overseer and a "Dropperlord" with Ventral Sacs.'

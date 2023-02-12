@@ -5,7 +5,7 @@ function Marauder() {
   return (
     <UnitDisplay
       name='Marauder'
-      image={process.env.PUBLIC_URL + "/assets/terran Units/Marauder.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Terran Units/Marauder.jpg"}
       alttag='Marauder jpg'
       type='Ground Unit'
       description='Heavy Assault infantry.'

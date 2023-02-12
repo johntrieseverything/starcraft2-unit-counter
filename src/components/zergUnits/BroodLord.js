@@ -5,7 +5,7 @@ function BroodLord() {
   return (
     <UnitDisplay
       name='Brood Lord'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/BroodLord.jpg"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/BroodLord.jpg"}
       alttag='Brood Lord jpg'
       type='Air Unit'
       description='Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.'

@@ -5,7 +5,7 @@ function Zergling() {
   return (
     <UnitDisplay
       name='Zergling'
-      image={process.env.PUBLIC_URL + "/assets/zerg Units/zergling.gif"}
+      image={process.env.PUBLIC_URL + "/assets/Zerg Units/zergling.gif"}
       alttag='Zergling gif'
       type='Ground Unit'
       description='Fast melee creature. Can morph into a Baneling.'
