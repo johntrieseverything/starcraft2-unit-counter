@@ -265,7 +265,7 @@ function ArmyCounters(props) {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="Skyterran" style={{ textAlign: 'center' }}>
+                      <Tab.Pane eventKey="SkyTerran" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center mt-3'>
                           <Col>
                             <h1>Sky Terran</h1>

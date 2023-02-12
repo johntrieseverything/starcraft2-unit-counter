@@ -52,7 +52,7 @@ function BioCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Terran Bio Counters</h3>
+            <h3>Sky Zerg Counters</h3>
           </Row>
 
           {/* Protoss section */}
