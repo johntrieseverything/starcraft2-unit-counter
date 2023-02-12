@@ -114,6 +114,22 @@ function UnitCounters(props) {
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid className='unitListDisplayBackground'>
         <Row style={{ height: '10vh' }}></Row>
+        <Row className='align-items-center'>
+          <h1>Unit Counters</h1>
+          <p>Here you can view each units counters. Here is how to use this guide:</p>
+          <ul>
+            <li><p>Choose the enemies race</p></li>
+            <li><p>Choose the unit you wish to counter</p></li>
+            <li><p>Choose your race</p></li>
+            <li><p>It will then show the enemy units stats and its common counters.</p></li>
+            <li><p>Each counter will be tagged with  (soft) if it isn't a direct counter, but more of a soft counter.</p></li>
+            <li><p>Note that it is near impossible to account for perfect micro and proper use of each unit so some of these
+              counters may be incorrect. I would like to add small paragraphs to each counter like the Protoss' Zealot
+              counters but it would take too long for me to write each one. The ones that do have paragraphs explaining each
+              counter were taken from Osiris' SC2 guide. Check out the guide <a href='https://osirissc2guide.com/'
+                target="_blank" rel="noopener noreferrer">HERE.</a></p></li>
+          </ul>
+        </Row>
         <Row className='mt-5'>
           <h1>{props.title}</h1>
         </Row>

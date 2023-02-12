@@ -17,6 +17,7 @@ function Home() {
             wrong army compositions and unaware of the proper unit counters. That is why I decided to make this webapp as a way to get some
             practice using react.js and utilize the site as an interactive cheatsheet for unit counters! <br />I am obviously NOT a professional
             player and what is on here is not an exact science. If any of the information is incorrect, please feel free to let me know!
+            Note this page works best on desktop. I am working on its mobile responsiveness.
           </p>
           <p>I hope you find this fun and helpful! Let us all become better players together!</p>
           <img

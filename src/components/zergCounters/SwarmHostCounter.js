@@ -99,7 +99,7 @@ function SwarmHostCounter(props) {
                           <Row className='mt-3 mb-3'>
                             <Col>
                               <h3>Zergling (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zergling (soft).png"} alt='Zergling (soft)' />
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zergling.png"} alt='Zergling (soft)' />
                             </Col>
                             <Col>
                               <h3>Mutalisk </h3>

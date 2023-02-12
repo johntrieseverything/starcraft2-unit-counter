@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Navbar, Row } from 'react-bootstrap';
-import { Link } from 'react-scroll';
 
 function TopBar() {
   return (
@@ -18,6 +17,7 @@ function TopBar() {
               <li className='scrollLink'><a href='/'>Home</a></li>
               <li className='scrollLink'><a href='/UnitsList'>Units List</a></li>
               <li className='scrollLink'><a href='/UnitCountersPage'>Unit Counters</a></li>
+              <li className='scrollLink'><a href='/ArmyCounterPage'>Army Counters</a></li>
             </ul>
           </Col>
         </Row>

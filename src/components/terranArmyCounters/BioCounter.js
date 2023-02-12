@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
-function HydraliskCounter(props) {
+function BioCounter(props) {
   return (
     <Tab.Container defaultActiveKey="Protoss" >
       <Container fluid>
@@ -52,7 +52,7 @@ function HydraliskCounter(props) {
             </Col>
           </Nav>
           <Row className='mt-3'>
-            <h3>Hydralisk Counters</h3>
+            <h3>Terran Bio Counters</h3>
           </Row>
 
           {/* Protoss section */}
@@ -67,16 +67,28 @@ function HydraliskCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>High Templar (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/High Templar.png"} alt='High Templar' />
+                              <h3>Archon</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Archon.png"} alt='Archon' />
                             </Col>
                             <Col>
                               <h3>Colossus</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Colossus.png"} alt='Colossus' />
                             </Col>
                             <Col>
-                              <h3>Disruptor (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Disruptor.png"} alt='Disruptor (soft)' />
+                              <h3>Disruptor</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Disruptor.png"} alt='Disruptor' />
+                            </Col>
+                          </Row>
+                          <Row className='mt-3 mb-3'>
+                            <Col>
+                              <h3>Sentry</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/Sentry.png"} alt='Sentry' />
+                            </Col>
+                            <Col>
+                              <h3>High Templar</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Protoss Icons/High Templar.png"} alt='High Templar' />
+                            </Col>
+                            <Col>
                             </Col>
                           </Row>
                         </Row>
@@ -98,26 +110,24 @@ function HydraliskCounter(props) {
                         <Row className='align-items-center'>
                           <Row className='mt-3 mb-3'>
                             <Col>
+                              <h3>Roach</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Roach.png"} alt='Roach' />
+                            </Col>
+                            <Col>
                               <h3>Baneling</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Baneling.png"} alt='Baneling' />
                             </Col>
                             <Col>
-                              <h3>Zergling</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Zergling.png"} alt='Zergling' />
-                            </Col>
-                            <Col>
                               <h3>Lurker</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Lurker' />
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Lurker.png"} alt='Zergling' />
                             </Col>
                           </Row>
                           <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Swarm Host</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Swarm Host.png"} alt='Swarm Host' />
+                              <h3>Ultralisk</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Ultralisk.png"} alt='Roach' />
                             </Col>
                             <Col>
-                              <h3>Infestor (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Zerg Icons/Infestor.png"} alt='Infestor' />
                             </Col>
                             <Col>
                             </Col>
@@ -144,24 +154,12 @@ function HydraliskCounter(props) {
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellion.png"} alt='Hellion' />
                             </Col>
                             <Col>
-                              <h3>Hellbat</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellbat.png"} alt='Hellbat' />
-                            </Col>
-                            <Col>
                               <h3>Siege Tank</h3>
                               <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Siege Tank.png"} alt='Siege Tank' />
                             </Col>
-                          </Row>
-                          <Row className='mt-3 mb-3'>
                             <Col>
-                              <h3>Marine (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Marine.png"} alt='Marine' />
-                            </Col>
-                            <Col>
-                              <h3>Battlecruiser (soft)</h3>
-                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Battlecruiser.png"} alt='Battlecruiser' />
-                            </Col>
-                            <Col>
+                              <h3>Hellbat</h3>
+                              <img style={{ width: '8vw' }} src={process.env.PUBLIC_URL + "/assets/Icons/Terran Icons/Hellbat.png"} alt='Hellbat' />
                             </Col>
                           </Row>
                         </Row>
@@ -177,4 +175,4 @@ function HydraliskCounter(props) {
     </Tab.Container >)
 }
 
-export default HydraliskCounter
+export default BioCounter

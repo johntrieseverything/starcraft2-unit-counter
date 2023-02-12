@@ -13,6 +13,7 @@ function UnitListDisplay() {
         <Row style={{ height: '10vh' }}></Row>
         <Row className='mt-5'>
           <h1>Units List</h1>
+          <p>This is a page where you can view all playable units and see their stats</p>
         </Row>
         <Row>
           <Nav fill variant='tabs' defaultActiveKey="/home">
