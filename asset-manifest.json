@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/starcraft2-unit-counter/static/css/main.6b467d9d.css",
-    "main.js": "/starcraft2-unit-counter/static/js/main.249d3988.js",
+    "main.js": "/starcraft2-unit-counter/static/js/main.d445a739.js",
     "static/js/787.e1076d01.chunk.js": "/starcraft2-unit-counter/static/js/787.e1076d01.chunk.js",
     "static/media/wallpaper.jpg": "/starcraft2-unit-counter/static/media/wallpaper.86c86a1a3cf162970073.jpg",
     "static/media/SC2Font.ttf": "/starcraft2-unit-counter/static/media/SC2Font.6b2e351fe74f0cc1d30b.ttf",
     "index.html": "/starcraft2-unit-counter/index.html",
     "main.6b467d9d.css.map": "/starcraft2-unit-counter/static/css/main.6b467d9d.css.map",
-    "main.249d3988.js.map": "/starcraft2-unit-counter/static/js/main.249d3988.js.map",
+    "main.d445a739.js.map": "/starcraft2-unit-counter/static/js/main.d445a739.js.map",
     "787.e1076d01.chunk.js.map": "/starcraft2-unit-counter/static/js/787.e1076d01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b467d9d.css",
-    "static/js/main.249d3988.js"
+    "static/js/main.d445a739.js"
   ]
 }
