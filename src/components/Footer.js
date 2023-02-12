@@ -12,10 +12,11 @@ function Footer() {
               u/Autodidact420's unit counter chart from reddit, and SC2 client itself.
               If there are any copyright problems, please let me know and I will take it down immediately.  </p>
             <p>Attribution pages here:</p>
-            <a href='https://osirissc2guide.com/' target="_blank" rel="noopener noreferrer"> Osiris SC2 Guide</a><br/>
-            <a href='https://www.youtube.com/channel/UC1uug_uZrVmylfPVBLBvitQ' target="_blank" rel="noopener noreferrer"> Carbot Animations</a><br/>
-            <a href='https://www.reddit.com/r/starcraft/comments/bcvr7u/chart_i_made_to_help_newbs_figure_out_unit/' 
-            target="_blank" rel="noopener noreferrer"> u/Autodidact420's Unit Counter Chart</a>
+            <a href='https://osirissc2guide.com/' target="_blank" rel="noopener noreferrer"> Osiris SC2 Guide</a><br />
+            <a href='https://www.youtube.com/channel/UC1uug_uZrVmylfPVBLBvitQ' target="_blank" rel="noopener noreferrer"> Carbot Animations</a><br />
+            <a href='https://liquipedia.net/starcraft2/' target="_blank" rel="noopener noreferrer"> Starcraft 2 Liquidpedia</a><br />
+            <a href='https://www.reddit.com/r/starcraft/comments/bcvr7u/chart_i_made_to_help_newbs_figure_out_unit/'
+              target="_blank" rel="noopener noreferrer"> u/Autodidact420's Unit Counter Chart</a>
           </Col>
         </Row>
         <Row>

@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <BrowserRouter basename="">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/starcraft2-unit-counter" element={<Home />} />
             <Route path="/UnitsList" element={<UnitsList />} />
             <Route path="/UnitCountersPage" element={<UnitCountersPage />} />
             <Route path="/ArmyCounterPage" element={<ArmyCounterPage />} />
