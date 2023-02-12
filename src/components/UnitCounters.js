@@ -71,7 +71,6 @@ import ImmortalCounter from './protossCounters/ImmortalCounter'
 import MothershipCounter from './protossCounters/MothershipCounter'
 import OracleCounter from './protossCounters/OracleCounter'
 import PhoenixCounter from './protossCounters/PhoenixCounter'
-import ProbeCounter from './protossCounters/ProbeCounter'
 import SentryCounter from './protossCounters/SentryCounter'
 import StalkerCounter from './protossCounters/StalkerCounter'
 import TempestCounter from './protossCounters/TempestCounter'
@@ -93,6 +92,7 @@ import UltraliskCounter from './zergCounters/UltraliskCounter'
 import ViperCounter from './zergCounters/ViperCounter'
 import ZerglingCounter from './zergCounters/ZerglingCounter'
 
+import NonFightingUnit from './NonFightingUnit'
 import BansheeCounter from './terranCounters/BansheeCounter'
 import BattlecruiserCounter from './terranCounters/BattlecruiserCounter'
 import CycloneCounter from './terranCounters/CycloneCounter'
@@ -131,7 +131,7 @@ function UnitCounters(props) {
           </ul>
         </Row>
         <Row className='mt-5'>
-          <h1>{props.title}</h1>
+          <h1>Enemy race</h1>
         </Row>
         <Row>
           {/* Race Selection */}
@@ -177,7 +177,7 @@ function UnitCounters(props) {
             </Col>
           </Nav>
           <Row>
-            <h3>{props.unit}</h3>
+            <h3>Enemy Unit</h3>
           </Row>
 
           <Tab.Content>
@@ -196,7 +196,7 @@ function UnitCounters(props) {
                             <Probe />
                           </Col>
                           <Col>
-                            <ProbeCounter />
+                            <NonFightingUnit />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -305,12 +305,18 @@ function UnitCounters(props) {
                           <Col>
                             <Observer />
                           </Col>
+                          <Col>
+                            <NonFightingUnit />
+                          </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Warp Prism" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
                           <Col>
                             <WarpPrism />
+                          </Col>
+                          <Col>
+                            <NonFightingUnit />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -394,6 +400,9 @@ function UnitCounters(props) {
                         <Row className='align-items-center'>
                           <Col>
                             <Drone />
+                          </Col>
+                          <Col>
+                            <NonFightingUnit />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -502,12 +511,18 @@ function UnitCounters(props) {
                           <Col>
                             <Overlord />
                           </Col>
+                          <Col>
+                            <NonFightingUnit />
+                          </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Overseer" style={{ textAlign: 'center' }}>
                         <Row className='align-items-center'>
                           <Col>
                             <Overseer />
+                          </Col>
+                          <Col>
+                            <NonFightingUnit />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -570,6 +585,9 @@ function UnitCounters(props) {
                         <Row className='align-items-center'>
                           <Col>
                             <SCV />
+                          </Col>
+                          <Col>
+                            <NonFightingUnit />
                           </Col>
                         </Row>
                       </Tab.Pane>
@@ -688,6 +706,9 @@ function UnitCounters(props) {
                           <Col>
                             <Medivac />
                           </Col>
+                          <Col>
+                            <NonFightingUnit />
+                          </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Liberator" style={{ textAlign: 'center' }}>
@@ -730,21 +751,12 @@ function UnitCounters(props) {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="Viper" style={{ textAlign: 'center' }}>
-                        <Row className='align-items-center'>
-                          <Col>
-                            <Viper />
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
                     </Tab.Content>
                   </Row>
                 </Container>
               </Tab.Container >
             </Tab.Pane>
-
           </Tab.Content>
-
         </Row>
       </Container>
     </Tab.Container >

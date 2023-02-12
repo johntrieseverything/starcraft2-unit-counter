@@ -10,10 +10,7 @@ function UnitCountersPage() {
     <Container fluid>
       <TopBar />
       <TopButton />
-      <UnitCounters
-        title='Enemy race'
-        unit='Enemy Unit'
-      />
+      <UnitCounters />
       <Footer />
     </Container>
   )
