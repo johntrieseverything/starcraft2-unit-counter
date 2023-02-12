@@ -27,6 +27,7 @@ function Footer() {
         </Row>
         <Row className='mt-5 align-items-center'>
           <Col>
+            <a href='https://github.com/johntrieseverything/starcraft2-unit-counter/tree/main' target="_blank" rel="noopener noreferrer"> Github Repo Here</a>
             <p>© 2023 Johntrieseverything</p>
           </Col>
         </Row>
