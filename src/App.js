@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename="">
+        <BrowserRouter basename="starcraft2-unit-counter">
           <Routes>
-            <Route path="/starcraft2-unit-counter" element={<Home />} />
-            <Route path="/starcraft2-unit-counter/UnitsList" element={<UnitsList />} />
-            <Route path="/starcraft2-unit-counter/UnitCountersPage" element={<UnitCountersPage />} />
-            <Route path="/starcraft2-unit-counter/ArmyCounterPage" element={<ArmyCounterPage />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/UnitsList" element={<UnitsList />} />
+            <Route path="/UnitCountersPage" element={<UnitCountersPage />} />
+            <Route path="/ArmyCounterPage" element={<ArmyCounterPage />} />
           </Routes>
         </BrowserRouter>
       </div>

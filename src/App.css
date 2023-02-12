@@ -60,6 +60,20 @@ a:hover {
   transition: .5s;
   text-shadow: 1px 1px 2px black;
 }
+.navlink {
+  font-size: 2vh;
+  color: #ADD8E6
+}
+
+.navlink:hover {
+  color: black;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-shadow: 1px 1px 2px black;
+}
 
 .logo {
   width: 3vw;
