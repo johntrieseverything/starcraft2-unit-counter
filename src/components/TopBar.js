@@ -15,9 +15,9 @@ function TopBar() {
           <Col className='mt-1 pt-2 align-items-center'>
             <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}>
               <li className='scrollLink'><a href='/starcraft2-unit-counter'>Home</a></li>
-              <li className='scrollLink'><a href='/UnitsList'>Units List</a></li>
-              <li className='scrollLink'><a href='/UnitCountersPage'>Unit Counters</a></li>
-              <li className='scrollLink'><a href='/ArmyCounterPage'>Army Counters</a></li>
+              <li className='scrollLink'><a href='/starcraft2-unit-counter/UnitsList'>Units List</a></li>
+              <li className='scrollLink'><a href='/starcraft2-unit-counter/UnitCountersPage'>Unit Counters</a></li>
+              <li className='scrollLink'><a href='/starcraft2-unit-counter/ArmyCounterPage'>Army Counters</a></li>
             </ul>
           </Col>
         </Row>
